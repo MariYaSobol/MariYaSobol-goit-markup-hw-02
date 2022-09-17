@@ -1,0 +1,47 @@
+/* основной цвет текста color: #757575; */
+/* вторичный цвет текста color: #212121; */
+/* белый color: #FFFFFF; */
+/* акцент #2196F3; */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет текста в футере rgba(255, 255, 255, 0.6) */
+/* 000000 */
+/* ECECEC */
+/* F5F4FA */
+/* 2F303A */
+/* FFFFFF 60% */
+
+:root {
+  --primary-text-color: #757575; 
+  --title-text-color: #212121;
+  --white-color: rgba(255, 255, 255, 0.6)
+  --accept-color #2196F3;
+  --primary-bg-color: #FFFFFF;
+  --bgr-color: 2F303A;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color)
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* index */
+
+/* хедер */
+
+
