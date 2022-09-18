@@ -13,16 +13,18 @@
 :root {
   --primary-text-color: #757575; 
   --title-text-color: #212121;
-  --white-color: rgba(255, 255, 255, 0.6)
-  --accept-color #2196F3;
+  --white-color: rgba(255, 255, 255, 0.6);
+  --accept-color: #2196F3;
   --primary-bg-color: #FFFFFF;
-  --bgr-color: 2F303A;
+  --bgr-color: #2F303A;
+  --black-color: #000000; 
+  --bgr-secondary-color: #F5F4FA;
 }
 
 body {
   background-color: var(--primary-bg-color);
-  color: var(--primary-text-color)
-  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
   }
@@ -40,8 +42,235 @@ body {
   overflow: hidden;
 }
 
-/* index */
+.button {
+font-family: Roboto, sans-serif;
+cursor: pointer;
+}
+
+/* индекс */
 
 /* хедер */
 
+.header {
+}
 
+.logo {
+font-family: Raleway, normal;
+color: var(--accept-color);
+text-decoration: none;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.logo-text {
+color: var(--black-color);
+}
+
+.header-nav-list {
+list-style-type: none;
+}
+
+/* .header-nav-item {
+
+} */
+
+.header-nav-link {
+color: var(--title-text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.current {
+color: var(--accept-color);
+}
+
+.header-contact {
+ list-style-type: none;
+}
+
+.mail-link {
+text-decoration: none;
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.tel-link {
+text-decoration: none;
+color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accept-color);
+}
+
+/* main */
+
+.hero {
+ background-color: var(--bgr-color); 
+}
+
+.hero-title {
+color: var(--primary-bg-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+}
+
+.hero-btn {
+color: var(--primary-bg-color);
+background-color: var(--accept-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+}
+
+/* feature */
+
+  /* .feature {
+
+  }*/
+
+.feature-list {
+list-style-type: none;
+}
+
+/* .feature-item {
+ } */
+
+.feature-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.feature-text {
+color: var(--primary-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height:1.71;
+letter-spacing: 0.03em;
+}
+
+/* work */
+
+.work-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+}
+
+.work-list {
+list-style-type: none;  
+}
+
+/* team */
+
+.team {
+background-color: var(--bgr-secondary-color);
+}
+
+.team-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+}
+
+.team-list {
+list-style-type: none; 
+}
+
+.team-name {
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+}
+
+.team-activity {
+font-size: 16px;
+line-height: 1.18;
+}
+
+/* футер */
+
+.footer {
+background-color: var(--bgr-color);
+}
+
+/* .footer-adress {
+  } */
+
+.footer-adress-list {
+list-style-type: none;
+}
+
+.footer-mail, .footer-tel {
+font-style: normal;
+color: var(--transparent-white-color);
+text-decoration: none;
+line-height: 1.71;
+}
+
+.footer-map {
+font-style: normal;
+color: var(--primary-bg-color);
+text-decoration: none;
+line-height: 1.71;
+}
+
+.footer-map:hover,
+.footer-map:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accept-color);
+}
+
+/* Портфолио */
+
+.button:hover,
+.button:focus {
+  color: var(--accept-color);
+}
+
+.portfolio-list {
+ list-style-type: none; 
+}
+
+.portfolio-title {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+font-size: 16px;
+line-height: 1.87;
+}
